@@ -120,6 +120,7 @@ class MessagesList extends StatelessWidget {
                 return GestureDetector(
                   onTap: () {
                     if (!isMe) {
+                      
                       Navigator.push(
                         context,
                         MaterialPageRoute(
